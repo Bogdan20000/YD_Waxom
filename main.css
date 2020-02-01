@@ -1,0 +1,187 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.intro__logo{
+    height: 56px;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    font-family: Montserrat;
+}
+
+.intro__logo_text{
+    width: 115px;
+    font-size: 34px;
+    color: white;
+}
+
+.intro__socialList{
+    display: flex;
+    margin-top: 61px;
+}
+
+.intro__socialList_item{
+    margin-right: 30px;
+    height: 12px;
+    font-size: 14px;
+}
+
+.intro__socialList_item:first-of-type{
+    margin-left: 219px;
+}
+
+header{
+    display: flex;
+}
+
+.tools{
+    margin-top: 55px;
+    display: flex;
+}
+
+.tools:not(:last-of-type){
+    margin-left: 32px;
+}
+
+.tools_item:not(:last-of-type){
+    margin-right: 28px;
+}
+
+.grey{
+    color: #c7b299;
+    width: 64px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.intro{
+    height: 100vh;
+    background-image: url('images/photo.png');
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.intro::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(17, 17, 17, 0.7);
+}
+
+body{
+    margin: 0;
+}
+
+ul:first-of-type{
+    margin-right: 60px;
+}
+
+.intro__subtitle{
+    height: 34px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    z-index: 5;
+    margin-bottom: 14px;
+    max-width: 589px;
+}
+
+.intro__title{
+    height: 50px;
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+    font-weight: 400;
+    z-index: 6;
+    margin: 0;
+    margin-bottom: 19px;
+    max-width: 589px;
+}
+
+.intro__text{
+    height: 39px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    z-index: 4;
+    margin: 0;
+    margin-top: 52;
+    width: 562px;
+    display: flex;
+    text-align: center;
+}
+
+.buttonText{
+    width: 94px;
+    height: 11px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 23px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    position: relative;
+}
+
+.buttonText{
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    z-index: 6;
+    margin-top: 52px;
+}
+
+.ring{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d3c1ad;
+    background-color: #ffffff;
+    z-index: 4;
+}
